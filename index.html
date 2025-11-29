@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Персональный организатор — Дашборд</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="stylesheet" href="./styles/components.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Персональный организатор</h1>
+    <div class="controls">
+      <button id="add-todo">Добавить ToDo</button>
+      <button id="add-quote">Добавить Quote</button>
+      <button id="add-advice">Добавить Advice</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="dashboard-root" class="dashboard-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="app-footer">
+    <small>Дашборд — демонстрация ООП / JS-модули. API: quotable.io, adviceslip.com</small>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
